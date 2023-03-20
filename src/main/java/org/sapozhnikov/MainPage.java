@@ -16,4 +16,16 @@ public class MainPage extends WebDriverCommon {
         return new CatalogPage();
     }
 
+    @Step("Make search by some")
+    public CategoryPage makeSearch(String name)
+    {
+        WebElement searchField = driver.findElement(By.cssSelector(".inp"));
+        waiter.until(ExpectedConditions.visibilityOf(searchField));
+        searchField.sendKeys(name);
+
+        WebElement searchButton = driver.findElement(By.cssSelector("button.control"));
+        searchButton.click();
+        return new CategoryPage();
+    }
+
 }

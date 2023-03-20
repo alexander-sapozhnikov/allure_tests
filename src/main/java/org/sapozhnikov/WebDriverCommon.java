@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class WebDriverCommon {
     protected static EventFiringWebDriver driver;
     protected static WebDriverWait waiter;
-    protected static TypeDriver typeDriver = TypeDriver.Chrome;
+    protected static TypeDriver typeDriver = TypeDriver.Firefox;
 
     @BeforeMethod
     public void setUp() {
@@ -26,7 +26,7 @@ public class WebDriverCommon {
                 driver = new EventFiringWebDriver(chDriver);
             }
             case Firefox -> {
-                System.setProperty("webdriver.chrome.driver", "/home/alexandr/Documents/4 semester/drivers/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "/home/alexandr/Documents/4 semester/drivers/geckodriver");
                 driver = new EventFiringWebDriver(new FirefoxDriver());
             }
             default -> throw new RuntimeException("incorrect web driver");

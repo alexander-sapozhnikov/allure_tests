@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/EmbroideredPaintingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,39 +71,23 @@
       <recent name="$PROJECT_DIR$/src/main/java/test_test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sapozhnikov" />
       <recent name="com.sapozhnikov" />
       <recent name="test_test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckImage">
-    <configuration name="CheckCart" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckShoppingCart.checkCart">
+    <configuration name="CheckFavorite.checkFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="artnow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_test.*" />
+          <option name="PATTERN" value="org.sapozhnikov.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test_test" />
-      <option name="MAIN_CLASS_NAME" value="test_test.CheckCart" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckCart.checkCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="artnow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test_test" />
-      <option name="MAIN_CLASS_NAME" value="test_test.CheckCart" />
-      <option name="METHOD_NAME" value="checkCart" />
+      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
+      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckFavorite" />
+      <option name="METHOD_NAME" value="checkFavorite" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckImage.checkCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckImage.checkStyleImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="artnow" />
       <extension name="coverage">
         <pattern>
@@ -127,6 +122,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.sapozhnikov" />
       <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckImage" />
+      <option name="METHOD_NAME" value="checkStyleImage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckSearch.checkSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="artnow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sapozhnikov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
+      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckSearch" />
+      <option name="METHOD_NAME" value="checkSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckShoppingCart.checkCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="artnow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sapozhnikov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
+      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckShoppingCart" />
       <option name="METHOD_NAME" value="checkCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckShoppingCart.checkCart" />
+        <item itemvalue="TestNG.CheckSearch.checkSearch" />
+        <item itemvalue="TestNG.CheckFavorite.checkFavorite" />
+        <item itemvalue="TestNG.CheckImage.checkStyleImage" />
         <item itemvalue="TestNG.CheckImage" />
-        <item itemvalue="TestNG.CheckCart.checkCart" />
-        <item itemvalue="TestNG.CheckImage.checkCart" />
-        <item itemvalue="TestNG.CheckCart" />
       </list>
     </recent_temporary>
   </component>
@@ -153,16 +185,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679217438200</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1679296307770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679296307770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test_test/WebDriverAutoSettings.java</url>
           <line>23</line>
@@ -177,11 +216,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/test_test/CheckCart.java</url>
           <line>12</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
