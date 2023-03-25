@@ -4,12 +4,21 @@ import io.qameta.allure.Step;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.time.Duration;
 import java.util.List;
 
 public class CategoryPage extends WebDriverCommon {
+
+    public CategoryPage(EventFiringWebDriver driver){
+        super.driver = driver;
+        super.waiter = new WebDriverWait(driver, Duration.ofSeconds(5));
+    }
+
 
     @Step("choose genre urban")
     public void chooseUrbanLandscapeGenre() {
@@ -48,12 +57,12 @@ public class CategoryPage extends WebDriverCommon {
             String str = el.findElement(By.cssSelector("div")).getText();
             if (str.contains(name)) {
                 isHave = true;
-                el.findElement(By.cssSelector("a")).click();
+                el.click();
                 break;
             }
         }
         Assert.assertEquals(isHave, true);
-        return new DescImagePage();
+        return new DescImagePage(driver);
     }
 
     @Step("click favorite")
@@ -78,7 +87,7 @@ public class CategoryPage extends WebDriverCommon {
     public FavoritePage openFavorite() {
         WebElement favorite = driver.findElement(By.cssSelector(".fvtico"));
         favorite.click();
-        return new FavoritePage();
+        return new FavoritePage(driver);
     }
 
     @Step("click shop = {0}")
@@ -101,7 +110,7 @@ public class CategoryPage extends WebDriverCommon {
         WebElement cart = driver.findElement(By.cssSelector("html body div#cmodal.cmodal div.cmodal-guts p button.ok-button"));
         waiter.until(ExpectedConditions.visibilityOf(cart));
         cart.click();
-        return new ShoppingCart();
+        return new ShoppingCart(driver);
     }
     @Step("get cost = {0}")
     public int getCost(String name) {

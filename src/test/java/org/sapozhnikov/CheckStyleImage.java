@@ -1,25 +1,17 @@
 package org.sapozhnikov;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class CheckImage extends WebDriverCommon{
-    @Test
-    @Description("Check image Tramway")
-    public void checkExistImage() {
-        MainPage mainPage = new MainPage();
-        CatalogPage catalogPage = mainPage.openCatalog();
-
-        CategoryPage embroideredPaintingsPage = catalogPage.open("Вышитые картины");
-        embroideredPaintingsPage.chooseUrbanLandscapeGenre();
-        embroideredPaintingsPage.applyGenre();
-        embroideredPaintingsPage.checkImage("Трамвайный путь");
-    }
-
+@Listeners({FailedTestListener.class})
+public class CheckStyleImage extends BaseTest{
     @Test
     @Description("Check style for Tramway")
+    @Severity(SeverityLevel.MINOR)
     public void checkStyleImage() {
-        MainPage mainPage = new MainPage();
         CatalogPage catalogPage = mainPage.openCatalog();
 
         CategoryPage embroideredPaintingsPage = catalogPage.open("Вышитые картины");

@@ -1,15 +1,18 @@
 package org.sapozhnikov;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class CheckFavorite extends WebDriverCommon{
+@Listeners({FailedTestListener.class})
+public class CheckFavorite extends BaseTest{
     @Test
+    @Severity(SeverityLevel.BLOCKER)
     @Description("Check work favorite flow")
     public void checkFavorite() {
         String nameImage = "Рождённая летать";
-        MainPage mainPage = new MainPage();
-
         CatalogPage catalogPage = mainPage.openCatalog();
         CategoryPage batikPage = catalogPage.open("Батик");
         batikPage.clickHeart(nameImage);

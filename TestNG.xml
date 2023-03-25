@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTestsSuite" parallel = "tests" thread-count = "5">
+    <test name="Tests_Chrome" thread-count="5" parallel="classes">
+        <parameter name="browser" value="Chrome"/>-
+        <packages>
+            <package name="org.sapozhnikov.*"/>
+        </packages>
+    </test>
+    <test name="Tests_Firefox" thread-count="5" parallel="classes">
+        <parameter name="browser" value="Firefox"/>-
+        <packages>
+            <package name="org.sapozhnikov.*"/>
+        </packages>
+    </test>
+<!--    <test name="CheckFavorite_Chrome" >-->
+<!--        <parameter name="browser" value="Chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckFavorite"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckFavorite_Firefox" >-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckFavorite"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckExistImage_Firefox">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckExistImage"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckExistImage_Chrome">-->
+<!--        <parameter name="browser" value="Chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckExistImage"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckStyleImage_Firefox">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckStyleImage"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckSearch_Firefox">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckSearch"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CheckShoppingCart_Firefox">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="org.sapozhnikov.CheckShoppingCart"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

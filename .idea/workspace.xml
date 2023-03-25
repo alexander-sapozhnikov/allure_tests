@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" afterDir="false" />
+    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="make all tests">
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FailedTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/IDriverControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ScreenShotMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckStyleImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/EmbroideredPaintingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckExistImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,17 +65,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/alexandr/Documents/4 semester/artnow/src/main/java/test_test",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexandr/Downloads/TestNGAllureReport&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/test_test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -76,8 +85,8 @@
       <recent name="test_test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckShoppingCart.checkCart">
-    <configuration name="CheckFavorite.checkFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckFavorite">
+    <configuration name="CheckExistImage.checkExistImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="artnow" />
       <extension name="coverage">
         <pattern>
@@ -85,45 +94,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
+      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckExistImage" />
+      <option name="METHOD_NAME" value="checkExistImage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="artnow" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sapozhnikov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="org.sapozhnikov" />
       <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckFavorite" />
-      <option name="METHOD_NAME" value="checkFavorite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckImage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="artnow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sapozhnikov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
-      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckImage" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckImage.checkStyleImage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="artnow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sapozhnikov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
-      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckImage" />
-      <option name="METHOD_NAME" value="checkStyleImage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckShoppingCart.checkCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckStyleImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="artnow" />
       <extension name="coverage">
         <pattern>
@@ -157,22 +158,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sapozhnikov" />
-      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckShoppingCart" />
-      <option name="METHOD_NAME" value="checkCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.sapozhnikov.CheckStyleImage" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.sapozhnikov" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="artnow" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sapozhnikov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.sapozhnikov" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea -Djunit.jupiter.execution.parallel.enabled=true -Djunit.jupiter.execution.parallel.mode.default=concurrent" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.CheckExistImage.checkExistImage" />
+      <item itemvalue="TestNG.CheckStyleImage" />
+      <item itemvalue="TestNG.CheckFavorite" />
+      <item itemvalue="TestNG.CheckSearch.checkSearch" />
+      <item itemvalue="TestNG.org.sapozhnikov" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckShoppingCart.checkCart" />
+        <item itemvalue="TestNG.CheckFavorite" />
+        <item itemvalue="TestNG.CheckExistImage.checkExistImage" />
+        <item itemvalue="TestNG.CheckStyleImage" />
+        <item itemvalue="TestNG.org.sapozhnikov" />
         <item itemvalue="TestNG.CheckSearch.checkSearch" />
-        <item itemvalue="TestNG.CheckFavorite.checkFavorite" />
-        <item itemvalue="TestNG.CheckImage.checkStyleImage" />
-        <item itemvalue="TestNG.CheckImage" />
       </list>
     </recent_temporary>
   </component>
@@ -192,12 +225,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679296307770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make all tests">
+      <created>1679302148982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679302148982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="make all tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="make all tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

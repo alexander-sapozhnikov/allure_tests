@@ -1,15 +1,15 @@
 package org.sapozhnikov;
 
 import io.qameta.allure.Description;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class CheckSearch  extends WebDriverCommon{
+@Listeners({FailedTestListener.class})
+public class CheckSearch  extends BaseTest{
     @Test
     @Description("Check search flow")
     public void checkSearch() {
         String nameImage = "Жираф";
-        new MainPage().
-                makeSearch(nameImage).
-                checkImage(nameImage);
+        mainPage.makeSearch(nameImage).checkImage(nameImage);
     }
 }
