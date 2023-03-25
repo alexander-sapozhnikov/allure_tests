@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="make all tests">
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FailedTestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/IDriverControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ScreenShotMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckStyleImage.java" afterDir="false" />
+    <list default="true" id="5672413a-8f74-4f87-a345-9915375c08a5" name="Changes" comment="make clean code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CatalogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/CategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/DescImagePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/FavoritePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sapozhnikov/WebDriverCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckFavorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckExistImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sapozhnikov/CheckShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -232,13 +219,47 @@
       <option name="project" value="LOCAL" />
       <updated>1679302148982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change architecture">
+      <created>1679727210041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679727210041</updated>
+    </task>
+    <task id="LOCAL-00004" summary="make clean code">
+      <created>1679727276015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679727276015</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make clean code">
+      <created>1679728013109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679728013109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="make all tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="make all tests" />
+    <MESSAGE value="change architecture" />
+    <MESSAGE value="make clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="make clean code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
