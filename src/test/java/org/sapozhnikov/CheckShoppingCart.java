@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({FailedTestListener.class})
-public class CheckShoppingCart extends BaseTest{
+public class CheckShoppingCart extends BaseTest {
     @Test
     @Description("Check shopping cart")
     @Severity(SeverityLevel.MINOR)
@@ -15,7 +15,7 @@ public class CheckShoppingCart extends BaseTest{
         String nameImage = "Кулон и серьги \"Звезда\"";
         CatalogPage catalogPage = mainPage.openCatalog();
         CategoryPage jewelryArtPage = catalogPage.open("Ювелирное искусство");
-        int prevCost  = jewelryArtPage.getCost(nameImage);
+        int prevCost = jewelryArtPage.getCost(nameImage);
         jewelryArtPage.
                 clickShop(nameImage).
                 checkCost(nameImage, prevCost);

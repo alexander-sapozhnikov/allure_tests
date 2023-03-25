@@ -2,8 +2,6 @@ package org.sapozhnikov;
 
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;

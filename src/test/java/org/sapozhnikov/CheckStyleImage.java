@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({FailedTestListener.class})
-public class CheckStyleImage extends BaseTest{
+public class CheckStyleImage extends BaseTest {
     @Test
     @Description("Check style for Tramway")
     @Severity(SeverityLevel.MINOR)
@@ -17,7 +17,7 @@ public class CheckStyleImage extends BaseTest{
         CategoryPage embroideredPaintingsPage = catalogPage.open("Вышитые картины");
         embroideredPaintingsPage.chooseUrbanLandscapeGenre();
         embroideredPaintingsPage.applyGenre();
-        DescImagePage descImagePage =  embroideredPaintingsPage.clickImage("Трамвайный путь");
+        DescImagePage descImagePage = embroideredPaintingsPage.clickImage("Трамвайный путь");
         descImagePage.checkStyle("Реализм");
     }
 }

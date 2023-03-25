@@ -11,12 +11,13 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class ShoppingCart extends WebDriverCommon{
+public class ShoppingCart extends WebDriverCommon {
 
-    public ShoppingCart(EventFiringWebDriver driver){
+    public ShoppingCart(EventFiringWebDriver driver) {
         super.driver = driver;
         super.waiter = new WebDriverWait(driver, Duration.ofSeconds(5));
     }
+
     @Step("Check cost name = {0}, prev cost = {1}")
     public void checkCost(String name, int prevCost) {
         List<WebElement> images = driver.findElements(By.cssSelector(".c_row"));

@@ -1,20 +1,18 @@
 package org.sapozhnikov;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class BaseTest implements IDriverControl{
+public class BaseTest implements IDriverControl {
 
     public EventFiringWebDriver driver;
-    public MainPage  mainPage;
+    public MainPage mainPage;
 
     public EventFiringWebDriver getDriver() {
         return driver;
@@ -22,7 +20,7 @@ public class BaseTest implements IDriverControl{
 
     @BeforeMethod
     @Parameters({"browser"})
-    public void setUp(TypeDriver  browser) {
+    public void setUp(TypeDriver browser) {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         switch (browser) {
             case Chrome -> {

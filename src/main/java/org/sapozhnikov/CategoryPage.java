@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CategoryPage extends WebDriverCommon {
 
-    public CategoryPage(EventFiringWebDriver driver){
+    public CategoryPage(EventFiringWebDriver driver) {
         super.driver = driver;
         super.waiter = new WebDriverWait(driver, Duration.ofSeconds(5));
     }
@@ -112,6 +112,7 @@ public class CategoryPage extends WebDriverCommon {
         cart.click();
         return new ShoppingCart(driver);
     }
+
     @Step("get cost = {0}")
     public int getCost(String name) {
         List<WebElement> images = driver.findElements(By.cssSelector("div.post"));

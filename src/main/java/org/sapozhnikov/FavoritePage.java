@@ -10,9 +10,9 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class FavoritePage  extends WebDriverCommon{
+public class FavoritePage extends WebDriverCommon {
 
-    public FavoritePage(EventFiringWebDriver driver){
+    public FavoritePage(EventFiringWebDriver driver) {
         super.driver = driver;
         super.waiter = new WebDriverWait(driver, Duration.ofSeconds(5));
     }

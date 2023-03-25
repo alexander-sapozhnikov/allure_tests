@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({FailedTestListener.class})
-public class CheckExistImage extends BaseTest{
+public class CheckExistImage extends BaseTest {
     @Test
     @Severity(SeverityLevel.MINOR)
     @Description("Check image Tramway")

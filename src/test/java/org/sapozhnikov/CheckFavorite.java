@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({FailedTestListener.class})
-public class CheckFavorite extends BaseTest{
+public class CheckFavorite extends BaseTest {
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Description("Check work favorite flow")
